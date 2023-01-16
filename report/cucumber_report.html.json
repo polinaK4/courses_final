@@ -1,0 +1,2003 @@
+[
+  {
+    "keyword": "Feature",
+    "type": "feature",
+    "description": "",
+    "line": 1,
+    "name": "Check login to OZ website",
+    "uri": "C:\\Users\\Polina\\WebstormProjects\\final\\courses_final\\features\\login.feature",
+    "tags": [],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "As a user, I log in with valid credentials via Email",
+        "tags": [],
+        "id": "check-login-to-oz-website;as-a-user,-i-log-in-with-valid-credentials-via-email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "Reload session and navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 4956000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I click \"Header > enterButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Login Page > emailTab\" button",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I fill in \"Login Page > inputEmail\" field \"p.kaliuzhnaya@gmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 735000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I fill in \"Login Page > inputPassword\" field \"8ZxAwJ\"",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Login Page > loginButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect \"Header > topBarNickname\" to be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2088000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "I log out after I logged in",
+        "tags": [],
+        "id": "check-login-to-oz-website;i-log-out-after-i-logged-in",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "Reload session and navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 4362000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I login with \"p.kaliuzhnaya@gmail.com\" and \"8ZxAwJ\"",
+            "result": {
+              "status": "passed",
+              "duration": 790000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I click \"Header > topBarNickname\" button",
+            "result": {
+              "status": "passed",
+              "duration": 3337000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Personal Page > logoutButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1413000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect \"Header > enterButton\" to be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "I try to log in with wrong password and expect error message",
+        "tags": [],
+        "id": "check-login-to-oz-website;i-try-to-log-in-with-wrong-password-and-expect-error-message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "Reload session and navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 5545000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I login with \"p.kaliuzhnaya@gmail.com\" and \"111111\"",
+            "result": {
+              "status": "passed",
+              "duration": 799000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect element \"Login Page > errorMessage\" contain error message \"Неверный пароль. Если вы потеряли или забыли пароль — восстановите его\"",
+            "result": {
+              "status": "passed",
+              "duration": 602000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "check-login-to-oz-website",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "108.0.5359.125"
+      },
+      "device": "Device name not known",
+      "platform": {
+        "name": "windows",
+        "version": "Version not known"
+      }
+    }
+  },
+  {
+    "keyword": "Feature",
+    "type": "feature",
+    "description": "",
+    "line": 1,
+    "name": "Check OZ Books page",
+    "uri": "C:\\Users\\Polina\\WebstormProjects\\final\\courses_final\\features\\bookspage.feature",
+    "tags": [],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Click Book category in side menu and check url",
+        "tags": [],
+        "id": "check-oz-books-page;click-book-category-in-side-menu-and-check-url",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 5298000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"/books/\" option of \"Main Page > categoryByText\" element",
+            "result": {
+              "status": "passed",
+              "duration": 3149000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect url should be equal \"https://oz.by/books/\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Open Bestsellers page and check Url",
+        "tags": [],
+        "id": "check-oz-books-page;open-bestsellers-page-and-check-url",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1131000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"/books/\" option of \"Main Page > categoryByText\" element",
+            "result": {
+              "status": "passed",
+              "duration": 1734000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I click 1 \"Category Page > Top menu links\" element",
+            "result": {
+              "status": "passed",
+              "duration": 1960000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect url should be equal \"https://oz.by/books/bestsellers\"",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Open Bestsellers page and check Title",
+        "tags": [],
+        "id": "check-oz-books-page;open-bestsellers-page-and-check-title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1125000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"/books/\" option of \"Main Page > categoryByText\" element",
+            "result": {
+              "status": "passed",
+              "duration": 1899000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect title should be equal \"Купить книги в Минске, книги с доставкой по Беларуси в интернет-магазине — OZ.by\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Click Book category and sort by price",
+        "tags": [],
+        "id": "check-oz-books-page;click-book-category-and-sort-by-price",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1192000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"/books/\" option of \"Main Page > categoryByText\" element",
+            "result": {
+              "status": "passed",
+              "duration": 1801000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I scroll to \"Catalog > sortingDropdown\"",
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Catalog > sortingDropdown\" button",
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"price_asc\" option of \"Catalog > sortingDropdownOptions\" element",
+            "result": {
+              "status": "passed",
+              "duration": 2330000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect url should be equal \"https://oz.by/books/?sort=price_asc\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Check naming of 'Books' breadscrumps",
+        "tags": [],
+        "id": "check-oz-books-page;check-naming-of-'books'-breadscrumps",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1112000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"/books/\" option of \"Main Page > categoryByText\" element",
+            "result": {
+              "status": "passed",
+              "duration": 1856000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I take text of \"Category Page > headerOfpage\" element",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect element \"Category Page > breadscrupms\" should have same text",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "check-oz-books-page",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "108.0.5359.125"
+      },
+      "device": "Device name not known",
+      "platform": {
+        "name": "windows",
+        "version": "Version not known"
+      }
+    }
+  },
+  {
+    "keyword": "Feature",
+    "type": "feature",
+    "description": "",
+    "line": 1,
+    "name": "Check OZ Favorites functionality",
+    "uri": "C:\\Users\\Polina\\WebstormProjects\\final\\courses_final\\features\\favorites.feature",
+    "tags": [],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "As a logged in user I put an item to favorites and check that Favorites counter changed",
+        "tags": [],
+        "id": "check-oz-favorites-functionality;as-a-logged-in-user-i-put-an-item-to-favorites-and-check-that-favorites-counter-changed",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 5432000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I login with \"p.kaliuzhnaya@gmail.com\" and \"8ZxAwJ\"",
+            "result": {
+              "status": "passed",
+              "duration": 805000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"/books/\" option of \"Main Page > categoryByText\" element",
+            "result": {
+              "status": "passed",
+              "duration": 4389000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 1 \"Category Page > Top menu links\" element",
+            "result": {
+              "status": "passed",
+              "duration": 2019000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 1 \"Catalog > Catalog Item\" element",
+            "result": {
+              "status": "passed",
+              "duration": 3544000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Item Page > addRemoveToFavoritesButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect element \"Header > favoritesCounter\" should be \"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 579000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Put an item to favorites and check that icon and text in the button changed",
+        "tags": [],
+        "id": "check-oz-favorites-functionality;put-an-item-to-favorites-and-check-that-icon-and-text-in-the-button-changed",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1119000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I click \"/books/\" option of \"Main Page > categoryByText\" element",
+            "result": {
+              "status": "passed",
+              "duration": 7003000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 1 \"Category Page > Top menu links\" element",
+            "result": {
+              "status": "passed",
+              "duration": 2061000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 2 \"Catalog > Catalog Item\" element",
+            "result": {
+              "status": "passed",
+              "duration": 1947000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Item Page > addRemoveToFavoritesButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect \"Item Page > Favorite-Yes icon\" to be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Check that Favorites user page is opened when click Favorites link",
+        "tags": [],
+        "id": "check-oz-favorites-functionality;check-that-favorites-user-page-is-opened-when-click-favorites-link",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1120000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I click \"Header > favoritesLink\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1576000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect title should be equal \"Избранное OZ.by\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Check that item added to Favorites is added to Favorites page",
+        "tags": [],
+        "id": "check-oz-favorites-functionality;check-that-item-added-to-favorites-is-added-to-favorites-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1105000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I navigate to \"https://oz.by/comics/more10652470.html\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1359000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Item Page > addRemoveToFavoritesButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Header > favoritesLink\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1701000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect that 1 \"Favorites Page > favoriteItem\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I expect element 1 \"Favorites Page > favoriteItem\" link to be \"/comics/more10652470.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Check that item added to Favorites is opened when clicked",
+        "tags": [],
+        "id": "check-oz-favorites-functionality;check-that-item-added-to-favorites-is-opened-when-clicked",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1224000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I navigate to \"https://oz.by/books/more1019888.html\" page",
+            "result": {
+              "status": "passed",
+              "duration": 2226000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Item Page > addRemoveToFavoritesButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Header > favoritesLink\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1974000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 1 \"Favorites Page > favoriteItem\" element",
+            "result": {
+              "status": "passed",
+              "duration": 1328000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect url should be equal \"https://oz.by/books/more1019888.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Remove button is displayed when hovering item in Favorites list",
+        "tags": [],
+        "id": "check-oz-favorites-functionality;remove-button-is-displayed-when-hovering-item-in-favorites-list",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1287000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I click \"Header > favoritesLink\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1789000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I hover 1 \"Favorites Page > favoriteItem\" element",
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect that 1 \"Favorites Page > removeFromFavoritesButton\" is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Item is still displayed in Favorites list in I cancel deletion",
+        "tags": [],
+        "id": "check-oz-favorites-functionality;item-is-still-displayed-in-favorites-list-in-i-cancel-deletion",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1134000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I navigate to \"https://oz.by/boardgames/more10822791.html\" page",
+            "result": {
+              "status": "passed",
+              "duration": 3173000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Item Page > addRemoveToFavoritesButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Header > favoritesLink\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1659000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I hover 1 \"Favorites Page > favoriteItem\" element",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 1 \"Favorites Page > removeFromFavoritesButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 1 \"Favorites Page > cancelRemovingButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect element 1 \"Favorites Page > favoriteItem\" link to be \"/boardgames/more10822791.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Check that Item is not displayed after it's deleted from Favorites list",
+        "tags": [],
+        "id": "check-oz-favorites-functionality;check-that-item-is-not-displayed-after-it's-deleted-from-favorites-list",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1042000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I navigate to \"https://oz.by/boardgames/more1095084.html\" page",
+            "result": {
+              "status": "passed",
+              "duration": 9723000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Item Page > addRemoveToFavoritesButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Header > favoritesLink\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1821000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I hover 1 \"Favorites Page > favoriteItem\" element",
+            "result": {
+              "status": "passed",
+              "duration": 247000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 1 \"Favorites Page > removeFromFavoritesButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click 1 \"Favorites Page > approveRemovingButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect item \"Favorites Page > favoriteItemByText\" that contains \"/boardgames/more1095084.html\" not displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1630000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "check-oz-favorites-functionality",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "108.0.5359.125"
+      },
+      "device": "Device name not known",
+      "platform": {
+        "name": "windows",
+        "version": "Version not known"
+      }
+    }
+  },
+  {
+    "keyword": "Feature",
+    "type": "feature",
+    "description": "",
+    "line": 1,
+    "name": "Check Personal Data functionality",
+    "uri": "C:\\Users\\Polina\\WebstormProjects\\final\\courses_final\\features\\personalData.feature",
+    "tags": [],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Check nickname update",
+        "tags": [],
+        "id": "check-personal-data-functionality;check-nickname-update",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 3829000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I login with \"p.kaliuzhnaya@gmail.com\" and \"8ZxAwJ\"",
+            "result": {
+              "status": "passed",
+              "duration": 896000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Header > topBarNickname\" button",
+            "result": {
+              "status": "passed",
+              "duration": 3359000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I click \"Personal Page > personalDataButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1376000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "Generate random text and put to \"Personal Data Page > nicknameField\"",
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Personal Data Page > saveButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 896000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect element \"Header > topBarNickname\" should have same text",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "Change default address",
+        "tags": [],
+        "id": "check-personal-data-functionality;change-default-address",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I navigate to \"https://oz.by/\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1049000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I click \"Header > topBarNickname\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1876000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Personal Page > deliveryAddressesButton\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1019000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I take ID attribute of \"Personal Delivery Addresses Page > addressNotDefault\" element",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I click \"Personal Delivery Addresses Page > addressNotDefault\" button",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I wait for \"Personal Delivery Addresses Page > addressDefault\" to be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I expect ID attribute of \"Personal Delivery Addresses Page > addressDefault\" element changed to same",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "check-personal-data-functionality",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "108.0.5359.125"
+      },
+      "device": "Device name not known",
+      "platform": {
+        "name": "windows",
+        "version": "Version not known"
+      }
+    }
+  }
+]

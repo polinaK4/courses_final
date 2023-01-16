@@ -1,0 +1,35 @@
+{
+  "name": "courses_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polinaK4/courses_final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polinaK4/courses_final/issues"
+  },
+  "homepage": "https://github.com/polinaK4/courses_final#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "randomstring": "^1.2.3",
+    "wdio-cucumberjs-json-reporter": "^4.4.3",
+    "webdriverio": "^8.0.13"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.0.13",
+    "@wdio/cli": "^8.0.13",
+    "@wdio/cucumber-framework": "^8.0.13",
+    "@wdio/local-runner": "^8.0.13",
+    "@wdio/spec-reporter": "^8.0.13",
+    "chromedriver": "^108.0.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "wdio-chromedriver-service": "^8.0.1"
+  }
+}
